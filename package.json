@@ -1,0 +1,12 @@
+{
+  "name": "rspack-referenced-entry-module-bug",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "rm -rf build && \"$npm_execpath\" exec rspack"
+  },
+  "devDependencies": {
+    "@rspack/cli": "^1.4.11",
+    "@rspack/core": "^1.4.11"
+  },
+  "packageManager": "pnpm@10.14.0"
+}
